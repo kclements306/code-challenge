@@ -32,8 +32,6 @@ class CodeChallenge {
             for (let i=0; i<string4.length; ++i) {
                 if ((Number(string4[i].charAt(0)) + Number(string4[i].charAt(4))) !== 10) {
                     this.hasTen = false;
-                    // console.log(string4[i].charAt(0));
-                    // console.log(string4[i].charAt(4));
                     break;
                 } 
             }
