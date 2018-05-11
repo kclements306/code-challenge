@@ -19,6 +19,7 @@ class CodeChallenge {
 
     btnGetInputString() {
         this.inputString = $("#inputString").val();
+        console.log(inputString);
         this.processString(this.inputString);
     }
 
